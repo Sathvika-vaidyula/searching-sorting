@@ -1,21 +1,5 @@
 # 🔍 Searching and Sorting Algorithms in Python
 
-## 📖 Overview
-
-This repository contains implementations of fundamental Searching and Sorting Algorithms in Python.
-
-### Topics Covered
-
-- Linear Search
-- Binary Search
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Quick Sort
-- Merge Sort
-
----
-
 # 1️⃣ Linear Search
 
 ## 📌 Explanation
