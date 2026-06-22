@@ -1,39 +1,58 @@
-🔍 Searching and Sorting Algorithms in Python
-📖 Overview
+# 🔍 Searching and Sorting Algorithms in Python
 
-This repository contains implementations of fundamental Searching and Sorting Algorithms in Python along with:
+## 📖 Overview
 
-Explanation
-Pseudocode
-Example
-Time Complexity
-Space Complexity
-Interview Questions
-1. Linear Search
-Explanation
+This repository contains implementations of fundamental Searching and Sorting Algorithms in Python.
+
+### Topics Covered
+
+- Linear Search
+- Binary Search
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Quick Sort
+- Merge Sort
+
+---
+
+# 1️⃣ Linear Search
+
+## 📌 Explanation
 
 Linear Search checks each element one by one until the target element is found.
 
-Example
+## 📝 Example
 
-Array:
+**Array**
 
+```text
 [10, 20, 30, 40]
+```
 
-Target:
+**Target**
 
+```text
 30
+```
 
-Process:
+**Process**
 
+```text
 10 ❌
 20 ❌
 30 ✅
+```
 
-Output:
+**Output**
 
+```text
 Index = 2
-Pseudocode
+```
+
+## 📋 Pseudocode
+
+```text
 LinearSearch(arr, target)
 
 FOR each element in arr
@@ -41,17 +60,31 @@ FOR each element in arr
         RETURN index
 
 RETURN -1
-Time Complexity
-Case	Complexity
-Best	O(1)
-Average	O(n)
-Worst	O(n)
-Why?
-Best Case: Element found at first position.
-Worst Case: Element found at last position or not found.
-Space Complexity
+```
+
+## ⏱ Time Complexity
+
+| Case | Complexity |
+|------|------------|
+| Best | O(1) |
+| Average | O(n) |
+| Worst | O(n) |
+
+### Why?
+
+- Best Case: Element found at first position
+- Worst Case: Element found at last position or not found
+
+## 💾 Space Complexity
+
+```text
 O(1)
-Interview Questions
-What is Linear Search?
-Can Linear Search work on unsorted arrays?
-What is the difference between Linear Search and Binary Search?
+```
+
+## 🎯 Interview Questions
+
+1. What is Linear Search?
+2. Can Linear Search work on unsorted arrays?
+3. Difference between Linear Search and Binary Search?
+
+---
